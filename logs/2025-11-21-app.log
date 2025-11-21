@@ -1,0 +1,159 @@
+2025-11-21T06:33:21.723Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:33:21.797Z [INFO]: ✔ Database Connected.
+2025-11-21T06:33:37.752Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-21T06:33:45.053Z [INFO]: ✔ User register successful
+2025-11-21T06:34:01.191Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T06:35:34.616Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:35:34.684Z [INFO]: ✔ Database Connected.
+2025-11-21T06:38:00.983Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T06:39:12.343Z [ERROR]: ✖ AuthController.login error: Error: WHERE parameter "email" has invalid "undefined" value
+2025-11-21T06:39:36.551Z [ERROR]: ✖ AuthController.login error: Error: WHERE parameter "email" has invalid "undefined" value
+2025-11-21T06:39:57.976Z [ERROR]: ✖ AuthController.login error: Error: WHERE parameter "email" has invalid "undefined" value
+2025-11-21T06:40:08.023Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T06:41:36.037Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:41:36.120Z [INFO]: ✔ Database Connected.
+2025-11-21T06:41:49.096Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T06:42:38.061Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:42:38.137Z [INFO]: ✔ Database Connected.
+2025-11-21T06:43:19.530Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:43:19.598Z [INFO]: ✔ Database Connected.
+2025-11-21T06:43:30.540Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T06:48:08.376Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:48:08.451Z [INFO]: ✔ Database Connected.
+2025-11-21T06:48:13.639Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:48:13.716Z [INFO]: ✔ Database Connected.
+2025-11-21T06:48:13.973Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:48:14.047Z [INFO]: ✔ Database Connected.
+2025-11-21T06:49:05.374Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:49:05.441Z [INFO]: ✔ Database Connected.
+2025-11-21T06:49:12.681Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T06:51:09.221Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:51:09.301Z [INFO]: ✔ Database Connected.
+2025-11-21T06:51:22.337Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T06:54:22.990Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T06:54:38.332Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T06:58:33.601Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T06:58:33.700Z [INFO]: ✔ Database Connected.
+2025-11-21T06:58:52.435Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-21T06:59:13.490Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T07:01:12.925Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:01:12.992Z [INFO]: ✔ Database Connected.
+2025-11-21T07:01:25.010Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:05:18.525Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:05:18.603Z [INFO]: ✔ Database Connected.
+2025-11-21T07:05:23.900Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:07:18.531Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:07:18.615Z [INFO]: ✔ Database Connected.
+2025-11-21T07:07:27.595Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:13:20.163Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:13:20.234Z [INFO]: ✔ Database Connected.
+2025-11-21T07:18:03.608Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:18:03.682Z [INFO]: ✔ Database Connected.
+2025-11-21T07:18:48.494Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T07:18:57.462Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:19:34.725Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:19:34.800Z [INFO]: ✔ Database Connected.
+2025-11-21T07:19:45.641Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:23:06.015Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:23:06.086Z [INFO]: ✔ Database Connected.
+2025-11-21T07:23:10.636Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:28:04.701Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:28:04.782Z [INFO]: ✔ Database Connected.
+2025-11-21T07:28:08.817Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:29:48.741Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:29:48.819Z [INFO]: ✔ Database Connected.
+2025-11-21T07:29:50.120Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:30:22.693Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:34:19.568Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:34:19.633Z [INFO]: ✔ Database Connected.
+2025-11-21T07:34:27.696Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T07:34:30.874Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:35:21.880Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:35:21.956Z [INFO]: ✔ Database Connected.
+2025-11-21T07:35:22.954Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:36:25.742Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:36:25.814Z [INFO]: ✔ Database Connected.
+2025-11-21T07:37:47.542Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:41:14.587Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:41:14.657Z [INFO]: ✔ Database Connected.
+2025-11-21T07:41:20.023Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:41:20.101Z [INFO]: ✔ Database Connected.
+2025-11-21T07:41:34.161Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:41:34.252Z [INFO]: ✔ Database Connected.
+2025-11-21T07:41:35.488Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:43:20.225Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:43:20.299Z [INFO]: ✔ Database Connected.
+2025-11-21T07:43:36.736Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:43:36.806Z [INFO]: ✔ Database Connected.
+2025-11-21T07:43:42.919Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:43:53.475Z [INFO]: ✔ User register successful
+2025-11-21T07:47:35.049Z [ERROR]: ✖ AuthController.registration error: Error: Validation error
+2025-11-21T07:47:42.831Z [INFO]: ✔ User updated: abfd1b76-5eb5-4d3c-8dd2-c9f71e52e461
+2025-11-21T07:54:09.914Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-21T07:54:16.372Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-21T07:54:25.133Z [INFO]: ✔ User register successful
+2025-11-21T07:54:32.982Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T07:56:16.915Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:56:16.981Z [INFO]: ✔ Database Connected.
+2025-11-21T07:56:19.102Z [INFO]: ✔ User updated: 2d7919f8-8844-46ac-81d4-3bfef4727620
+2025-11-21T07:57:12.310Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:57:12.376Z [INFO]: ✔ Database Connected.
+2025-11-21T07:57:31.614Z [INFO]: ✔ User updated: 2d7919f8-8844-46ac-81d4-3bfef4727620
+2025-11-21T07:58:57.813Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T07:58:57.877Z [INFO]: ✔ Database Connected.
+2025-11-21T09:07:58.307Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:07:58.378Z [INFO]: ✔ Database Connected.
+2025-11-21T09:15:48.708Z [INFO]: ✔ User register successful
+2025-11-21T09:16:21.752Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T09:16:58.491Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:16:58.567Z [INFO]: ✔ Database Connected.
+2025-11-21T09:17:58.871Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:17:58.940Z [INFO]: ✔ Database Connected.
+2025-11-21T09:18:26.237Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T09:19:36.756Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T09:20:07.700Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T09:21:06.540Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:21:06.606Z [INFO]: ✔ Database Connected.
+2025-11-21T09:23:16.082Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T09:24:36.834Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T09:27:54.176Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:27:54.254Z [INFO]: ✔ Database Connected.
+2025-11-21T09:28:54.746Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:28:54.824Z [INFO]: ✔ Database Connected.
+2025-11-21T09:29:05.813Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T09:29:30.903Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:29:30.988Z [INFO]: ✔ Database Connected.
+2025-11-21T09:30:04.642Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T09:33:42.403Z [INFO]: ✔ User register successful
+2025-11-21T09:40:00.337Z [INFO]: ✔ Login successful: [object Object]
+2025-11-21T09:40:16.070Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:40:16.134Z [INFO]: ✔ Database Connected.
+2025-11-21T09:40:18.036Z [INFO]: ✔ Login successful: {"success":true,"user":{"id":"e1d36ab6-9a43-4944-845f-16489c78de78","email":"tbs.parth@gmail.com","password":"$2b$10$N9C/ezEnP84vH930CHh7reygSbfBilcIp9E1qN3AV0YRWRw.WK0UW","created_at":"2025-11-21T09:15:48.000Z","updated_at":"2025-11-21T09:29:54.000Z"},"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTgwMTcsImV4cCI6MTc2MzcxODkxN30.EkUngpANqTdlPr-ybbD2-2yQTxWq4qOzjlQjUou1cuM","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTgwMTcsImV4cCI6MTc2NDMyMjgxN30.fHaQlQ3lKcf70lD4j4Xcfs-O0HCS-oBv0BqC4Jez1as"}
+2025-11-21T09:41:13.392Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:41:13.489Z [INFO]: ✔ Database Connected.
+2025-11-21T09:42:23.786Z [ERROR]: ✖ AuthController.login error: {}
+2025-11-21T09:42:53.376Z [ERROR]: ✖ AuthController.login error: {}
+2025-11-21T09:43:04.747Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T09:43:04.815Z [INFO]: ✔ Database Connected.
+2025-11-21T09:43:08.008Z [ERROR]: ✖ AuthController.login error: "This email is not registered. Please check and try again."
+2025-11-21T10:00:32.782Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:00:32.878Z [INFO]: ✔ Database Connected.
+2025-11-21T10:00:58.767Z [INFO]: ✔ Login successful: {"user":{"id":"e1d36ab6-9a43-4944-845f-16489c78de78","email":"tbs.parth@gmail.com","password":"$2b$10$N9C/ezEnP84vH930CHh7reygSbfBilcIp9E1qN3AV0YRWRw.WK0UW","created_at":"2025-11-21T09:15:48.000Z","updated_at":"2025-11-21T09:29:54.000Z"},"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTkyNTgsImV4cCI6MTc2MzcyMDE1OH0.wuewenrxnHNjsoOWdhjesvcZlhoduAtqMhRpF6WARoE","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTkyNTgsImV4cCI6MTc2NDMyNDA1OH0.yKUL9caxSzPpo97gPjAwAXfevtAU9gPo3G55XMxYIwU"}
+2025-11-21T10:01:59.455Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:01:59.530Z [INFO]: ✔ Database Connected.
+2025-11-21T10:02:02.801Z [INFO]: ✔ Login successful: {"user":{"id":"e1d36ab6-9a43-4944-845f-16489c78de78","email":"tbs.parth@gmail.com","password":"$2b$10$N9C/ezEnP84vH930CHh7reygSbfBilcIp9E1qN3AV0YRWRw.WK0UW","created_at":"2025-11-21T09:15:48.000Z","updated_at":"2025-11-21T09:29:54.000Z"},"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTkzMjIsImV4cCI6MTc2MzcyMDIyMn0.t85fQ-ux5TytXTXjc3yOnrws-f96SXVZRFJ08bRPSXg","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTkzMjIsImV4cCI6MTc2NDMyNDEyMn0.oylbsr3hcILBWZW4ASdRYqmEyc6I6qiTABcrDrP8mtU"}
+2025-11-21T10:03:14.640Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:03:14.708Z [INFO]: ✔ Database Connected.
+2025-11-21T10:03:49.458Z [INFO]: ✔ Login successful: {"user":{"id":"e1d36ab6-9a43-4944-845f-16489c78de78","email":"tbs.parth@gmail.com","password":"$2b$10$N9C/ezEnP84vH930CHh7reygSbfBilcIp9E1qN3AV0YRWRw.WK0UW","created_at":"2025-11-21T09:15:48.000Z","updated_at":"2025-11-21T09:29:54.000Z"},"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTkzOTksImV4cCI6MTc2MzcyMDI5OX0.motyGsfZjomMOuFXZLelNH4W-wsr58IKLnLlVKKQP60","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJlMWQzNmFiNi05YTQzLTQ5NDQtODQ1Zi0xNjQ4OWM3OGRlNzgiLCJpYXQiOjE3NjM3MTkzOTksImV4cCI6MTc2NDMyNDE5OX0.eRFnY69QyICKO29L8RmntfdgStZE24g1gXAZ6IXC7fM"}
+2025-11-21T10:04:31.504Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T10:05:48.839Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:05:48.917Z [INFO]: ✔ Database Connected.
+2025-11-21T10:05:58.539Z [INFO]: ✔ User updated: e1d36ab6-9a43-4944-845f-16489c78de78
+2025-11-21T10:58:38.695Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:58:38.765Z [INFO]: ✔ Database Connected.
+2025-11-21T10:58:46.344Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:58:46.416Z [INFO]: ✔ Database Connected.
+2025-11-21T10:59:44.032Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:59:44.097Z [INFO]: ✔ Database Connected.
+2025-11-21T10:59:57.109Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-21T10:59:57.178Z [INFO]: ✔ Database Connected.

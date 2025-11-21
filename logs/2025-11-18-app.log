@@ -1,0 +1,115 @@
+2025-11-18T04:37:31.813Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-18T04:37:31.837Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-18T04:38:30.372Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T04:38:30.435Z [INFO]: ✔ Database Connected.
+2025-11-18T04:47:58.160Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T04:47:58.225Z [INFO]: ✔ Database Connected.
+2025-11-18T05:00:02.156Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:00:02.211Z [INFO]: ✔ Database Connected.
+2025-11-18T05:00:04.463Z [ERROR]: ✖ AuthController.login error: This email is not registered. Please check and try again.
+2025-11-18T05:00:40.849Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:00:40.916Z [INFO]: ✔ Database Connected.
+2025-11-18T05:00:43.194Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T05:01:10.541Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:01:10.597Z [INFO]: ✔ Database Connected.
+2025-11-18T05:01:21.125Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T05:04:17.985Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:04:18.045Z [INFO]: ✔ Database Connected.
+2025-11-18T05:04:20.204Z [ERROR]: ✖ AuthController.login error: {}
+2025-11-18T05:06:29.693Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:06:29.780Z [INFO]: ✔ Database Connected.
+2025-11-18T05:06:43.184Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T05:46:31.215Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:46:31.294Z [INFO]: ✔ Database Connected.
+2025-11-18T05:47:40.331Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T05:47:58.816Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:47:58.889Z [INFO]: ✔ Database Connected.
+2025-11-18T05:48:02.186Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T05:49:08.531Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:49:08.606Z [INFO]: ✔ Database Connected.
+2025-11-18T05:49:14.967Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T05:49:27.691Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:49:27.785Z [INFO]: ✔ Database Connected.
+2025-11-18T05:49:42.777Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T05:50:36.352Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T05:50:36.433Z [INFO]: ✔ Database Connected.
+2025-11-18T05:50:44.537Z [ERROR]: ✖ AuthController.login error: Error: This email is not registered. Please check and try again.
+2025-11-18T06:32:04.791Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:32:04.897Z [INFO]: ✔ Database Connected.
+2025-11-18T06:32:32.924Z [ERROR]: ✖ AuthController.login error: Error: Column 'id' cannot be null
+2025-11-18T06:36:03.129Z [ERROR]: ✖ AuthController.login error: Error: Column 'id' cannot be null
+2025-11-18T06:36:11.197Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:36:11.268Z [INFO]: ✔ Database Connected.
+2025-11-18T06:36:13.609Z [ERROR]: ✖ AuthController.login error: Error: auditHook is not defined
+2025-11-18T06:37:24.217Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:37:24.287Z [INFO]: ✔ Database Connected.
+2025-11-18T06:37:30.029Z [ERROR]: ✖ AuthController.login error: Error: Validation error
+2025-11-18T06:38:31.608Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:38:31.678Z [INFO]: ✔ Database Connected.
+2025-11-18T06:39:46.384Z [ERROR]: ✖ AuthController.registration error: Error: Validation error
+2025-11-18T06:39:53.875Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:39:53.953Z [INFO]: ✔ Database Connected.
+2025-11-18T06:41:01.446Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:41:01.535Z [INFO]: ✔ Database Connected.
+2025-11-18T06:41:42.466Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:41:42.551Z [INFO]: ✔ Database Connected.
+2025-11-18T06:41:50.639Z [INFO]: ✔ User register successful
+2025-11-18T06:42:18.749Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:42:18.833Z [INFO]: ✔ Database Connected.
+2025-11-18T06:44:23.726Z [ERROR]: ✖ AuthController.registration error: Error: Validation error
+2025-11-18T06:50:51.974Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:50:52.057Z [INFO]: ✔ Database Connected.
+2025-11-18T06:51:00.605Z [INFO]: ✔ User register successful
+2025-11-18T06:51:16.781Z [INFO]: ✔ User register successful
+2025-11-18T06:52:28.350Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:52:28.424Z [INFO]: ✔ Database Connected.
+2025-11-18T06:56:37.132Z [INFO]: ✔ User register successful
+2025-11-18T06:57:48.900Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T06:57:48.979Z [INFO]: ✔ Database Connected.
+2025-11-18T06:58:15.260Z [INFO]: ✔ User register successful
+2025-11-18T07:13:56.858Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:13:56.956Z [INFO]: ✔ Database Connected.
+2025-11-18T07:14:19.064Z [INFO]: ✔ User register successful
+2025-11-18T07:16:49.648Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:16:49.718Z [INFO]: ✔ Database Connected.
+2025-11-18T07:17:34.490Z [INFO]: ✔ User register successful
+2025-11-18T07:19:41.620Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:19:41.701Z [INFO]: ✔ Database Connected.
+2025-11-18T07:19:53.291Z [INFO]: ✔ User register successful
+2025-11-18T07:21:28.709Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:21:28.784Z [INFO]: ✔ Database Connected.
+2025-11-18T07:21:41.144Z [INFO]: ✔ User register successful
+2025-11-18T07:22:34.726Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:22:34.798Z [INFO]: ✔ Database Connected.
+2025-11-18T07:24:16.901Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:24:16.980Z [INFO]: ✔ Database Connected.
+2025-11-18T07:24:52.918Z [INFO]: ✔ User register successful
+2025-11-18T07:40:38.494Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:40:38.577Z [INFO]: ✔ Database Connected.
+2025-11-18T07:40:59.317Z [ERROR]: ✖ AuthController.registration error: Error: req is not defined
+2025-11-18T07:41:20.379Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T07:41:20.462Z [INFO]: ✔ Database Connected.
+2025-11-18T07:41:36.067Z [INFO]: ✔ User register successful
+2025-11-18T09:01:08.263Z [ERROR]: ✖ AuthController.login error: Error: Cannot read properties of undefined (reading 'create')
+2025-11-18T09:02:11.705Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T09:02:11.805Z [INFO]: ✔ Database Connected.
+2025-11-18T09:03:42.786Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T09:03:42.854Z [INFO]: ✔ Database Connected.
+2025-11-18T09:04:28.564Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T09:04:28.638Z [INFO]: ✔ Database Connected.
+2025-11-18T09:04:39.555Z [INFO]: ✔ Login successful: [object Object]
+2025-11-18T12:24:10.160Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T12:24:10.253Z [INFO]: ✔ Database Connected.
+2025-11-18T12:24:21.885Z [INFO]: ✔ Login successful: [object Object]
+2025-11-18T12:27:51.088Z [INFO]: ✔ Login successful: [object Object]
+2025-11-18T12:28:32.217Z [INFO]: ✔ Login successful: [object Object]
+2025-11-18T12:28:54.852Z [INFO]: ✔ Login successful: [object Object]
+2025-11-18T12:29:48.658Z [INFO]: ✔ Login successful: [object Object]
+2025-11-18T12:30:28.937Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T12:30:29.032Z [INFO]: ✔ Database Connected.
+2025-11-18T12:31:25.547Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T12:31:25.620Z [INFO]: ✔ Database Connected.
+2025-11-18T12:31:52.183Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T12:31:52.265Z [INFO]: ✔ Database Connected.
+2025-11-18T12:32:06.361Z [INFO]: ✔ Server running on http://localhost:5500.
+2025-11-18T12:32:06.436Z [INFO]: ✔ Database Connected.

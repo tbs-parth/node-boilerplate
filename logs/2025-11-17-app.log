@@ -1,0 +1,114 @@
+2025-11-17T09:27:44.295Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:27:44.305Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-17T09:28:07.840Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:28:07.890Z [INFO]: ✔ Database Connected.
+2025-11-17T09:30:15.309Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:30:15.371Z [INFO]: ✔ Database Connected.
+2025-11-17T09:31:09.729Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:31:09.738Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-17T09:31:31.731Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:31:31.740Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-17T09:33:36.011Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:33:36.020Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-17T09:34:17.867Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:34:17.876Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-17T09:34:59.378Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:34:59.387Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-17T09:36:17.243Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:36:40.416Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:37:04.130Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:38:08.399Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:39:06.348Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:42:12.764Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:42:41.246Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:42:41.255Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-17T09:44:52.245Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T09:44:52.290Z [INFO]: ✔ Database Connected.
+2025-11-17T10:10:07.462Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T10:10:07.519Z [INFO]: ✔ Database Connected.
+2025-11-17T10:11:04.698Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T10:11:04.755Z [INFO]: ✔ Database Connected.
+2025-11-17T10:12:45.293Z [INFO]: ✔ Server running on port 5500.
+2025-11-17T10:12:45.349Z [INFO]: ✔ Database Connected.
+2025-11-17T11:06:17.992Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T11:06:18.069Z [INFO]: ✔ Database Connected.
+2025-11-17T11:28:48.826Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T11:28:48.890Z [INFO]: ✔ Database Connected.
+2025-11-17T11:30:07.441Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T11:30:07.501Z [INFO]: ✔ Database Connected.
+2025-11-17T11:30:22.875Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T11:30:22.936Z [INFO]: ✔ Database Connected.
+2025-11-17T12:35:27.132Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:35:27.197Z [INFO]: ✔ Database Connected.
+2025-11-17T12:36:00.978Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:36:01.041Z [INFO]: ✔ Database Connected.
+2025-11-17T12:37:08.493Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:37:08.567Z [INFO]: ✔ Database Connected.
+2025-11-17T12:41:49.109Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:41:49.165Z [INFO]: ✔ Database Connected.
+2025-11-17T12:43:06.363Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:43:06.420Z [INFO]: ✔ Database Connected.
+2025-11-17T12:43:32.271Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:43:32.332Z [INFO]: ✔ Database Connected.
+2025-11-17T12:43:39.588Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:43:39.650Z [INFO]: ✔ Database Connected.
+2025-11-17T12:44:55.491Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:44:55.562Z [INFO]: ✔ Database Connected.
+2025-11-17T12:45:13.961Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:45:14.024Z [INFO]: ✔ Database Connected.
+2025-11-17T12:46:15.884Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:46:15.950Z [INFO]: ✔ Database Connected.
+2025-11-17T12:46:58.369Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:46:58.450Z [INFO]: ✔ Database Connected.
+2025-11-17T12:47:47.340Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:47:47.431Z [INFO]: ✔ Database Connected.
+2025-11-17T12:49:09.391Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:49:09.471Z [INFO]: ✔ Database Connected.
+2025-11-17T12:49:30.676Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:49:30.747Z [INFO]: ✔ Database Connected.
+2025-11-17T12:50:04.245Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:50:04.317Z [INFO]: ✔ Database Connected.
+2025-11-17T12:50:28.523Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:50:28.595Z [INFO]: ✔ Database Connected.
+2025-11-17T12:51:48.339Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:51:48.416Z [INFO]: ✔ Database Connected.
+2025-11-17T12:52:15.427Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:52:15.506Z [INFO]: ✔ Database Connected.
+2025-11-17T12:52:44.784Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:52:44.855Z [INFO]: ✔ Database Connected.
+2025-11-17T12:53:04.701Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:53:04.777Z [INFO]: ✔ Database Connected.
+2025-11-17T12:53:42.196Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:53:42.268Z [INFO]: ✔ Database Connected.
+2025-11-17T12:54:20.344Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:54:20.409Z [INFO]: ✔ Database Connected.
+2025-11-17T12:55:39.126Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:55:39.225Z [INFO]: ✔ Database Connected.
+2025-11-17T12:56:57.785Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:56:57.869Z [INFO]: ✔ Database Connected.
+2025-11-17T12:59:33.269Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T12:59:33.341Z [INFO]: ✔ Database Connected.
+2025-11-17T13:00:01.096Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:00:01.172Z [INFO]: ✔ Database Connected.
+2025-11-17T13:00:33.978Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:00:34.037Z [INFO]: ✔ Database Connected.
+2025-11-17T13:00:46.137Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:00:46.209Z [INFO]: ✔ Database Connected.
+2025-11-17T13:01:20.180Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:01:20.246Z [INFO]: ✔ Database Connected.
+2025-11-17T13:29:57.441Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:29:57.523Z [INFO]: ✔ Database Connected.
+2025-11-17T13:32:57.465Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:32:57.554Z [INFO]: ✔ Database Connected.
+2025-11-17T13:34:13.531Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:34:13.602Z [INFO]: ✔ Database Connected.
+2025-11-17T13:34:48.514Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:34:48.582Z [INFO]: ✔ Database Connected.
+2025-11-17T13:35:44.312Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:35:44.401Z [INFO]: ✔ Database Connected.
+2025-11-17T13:36:09.352Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:36:09.421Z [INFO]: ✔ Database Connected.
+2025-11-17T13:37:30.257Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:37:30.325Z [INFO]: ✔ Database Connected.
+2025-11-17T13:38:46.321Z [INFO]: ✔ Server running on port http://localhost:5500.
+2025-11-17T13:38:46.406Z [INFO]: ✔ Database Connected.

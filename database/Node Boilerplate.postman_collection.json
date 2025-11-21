@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "3aa4d94b-238d-4b7c-905c-cb7c8bcae1e2",
+		"name": "Node Boilerplate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23589567"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"if (jsonData.status == true) {\r",
+							"    pm.environment.set(\"AppToken\", jsonData.data.accessToken);\r",
+							"}"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"tbs.mihir@gmail.com\",\r\n    \"password\": \"123456\",\r\n    \"device\": \"API Collection\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{AppUrl}}login",
+					"host": [
+						"{{AppUrl}}login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

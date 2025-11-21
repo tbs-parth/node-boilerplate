@@ -1,0 +1,41 @@
+2025-11-14T07:13:30.163Z [INFO]: ✔ Server running on port 5500
+2025-11-14T07:14:51.849Z [ERROR]: ✔ Server running on port 5500
+2025-11-14T07:17:46.191Z [INFO]: Server started
+2025-11-14T07:17:46.193Z [ERROR]: Database connection failed
+2025-11-14T07:17:46.193Z [WARN]: Password attempt limit reached
+2025-11-14T07:19:00.069Z [INFO]: Server started
+2025-11-14T07:19:00.070Z [ERROR]: Database connection failed
+2025-11-14T07:19:00.071Z [WARN]: Password attempt limit reached
+2025-11-14T07:19:00.071Z [HTTP]: GET /api/users
+2025-11-14T07:19:00.071Z [DEBUG]: User object processed
+2025-11-14T07:20:01.742Z [INFO]: Server started
+2025-11-14T07:20:01.743Z [ERROR]: Database connection failed
+2025-11-14T07:20:01.744Z [WARN]: Password attempt limit reached
+2025-11-14T07:20:01.744Z [HTTP]: GET /api/users
+2025-11-14T07:20:01.744Z [DEBUG]: User object processed
+2025-11-14T07:20:33.833Z [INFO]: Server started
+2025-11-14T07:20:33.834Z [ERROR]: Database connection failed
+2025-11-14T07:20:33.834Z [WARN]: Password attempt limit reached
+2025-11-14T07:20:33.835Z [HTTP]: GET /api/users
+2025-11-14T07:20:33.835Z [DEBUG]: User object processed [object Object]
+2025-11-14T07:22:31.341Z [INFO]: Server started
+2025-11-14T07:22:31.344Z [ERROR]: Database connection failed
+2025-11-14T07:22:31.344Z [WARN]: Password attempt limit reached
+2025-11-14T07:22:31.345Z [HTTP]: GET /api/users
+2025-11-14T07:22:31.345Z [DEBUG]: User object processed {"user":1,"username":"tbs"}
+2025-11-14T07:49:07.816Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T07:49:07.825Z [ERROR]: ✔ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-14T07:51:23.353Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T07:51:23.362Z [ERROR]: ✖ Database Connection Failed. {"name":"SequelizeConnectionRefusedError","parent":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true},"original":{"errno":-4078,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":3306,"fatal":true}}
+2025-11-14T07:54:12.077Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T07:54:12.146Z [INFO]: ✔ Database Connected.
+2025-11-14T09:11:23.236Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T09:11:23.281Z [INFO]: ✔ Database Connected.
+2025-11-14T09:11:45.631Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T09:11:45.676Z [INFO]: ✔ Database Connected.
+2025-11-14T13:16:53.809Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T13:16:53.915Z [INFO]: ✔ Database Connected.
+2025-11-14T13:19:01.593Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T13:19:01.646Z [INFO]: ✔ Database Connected.
+2025-11-14T13:42:45.314Z [INFO]: ✔ Server running on port 5500.
+2025-11-14T13:42:45.362Z [INFO]: ✔ Database Connected.
