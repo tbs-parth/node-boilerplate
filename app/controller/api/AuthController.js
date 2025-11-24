@@ -1,5 +1,7 @@
 const { successResponse, errorResponse } = require('../../../hooks/responseHook');
 const logger = require('../../config/logger');
+const mail = require('../../config/mail');
+const WelcomeMail = require('../../mail/WelcomeMail');
 const AuthService = require('../../services/AuthService');
 
 class AuthController {
@@ -21,8 +23,10 @@ class AuthController {
     async register(req, res) {
         try {
             const requestData = req.body;
-
             const registerUser = await AuthService.register(requestData);
+
+            mail.send(new WelcomeMail(requestData.email));
+
             logger.info(`✔ User register successful`);
             return successResponse(res, 'User register successful', registerUser);
         } catch (err) {

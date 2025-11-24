@@ -5,7 +5,6 @@ const { User } = require('../../models');
 class UserController {
     async index(req, res) {
         const users = await User.findAll();
-
         return successResponse(res, 'Fetch users list.', users);
     }
 
