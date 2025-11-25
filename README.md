@@ -7,6 +7,7 @@ A simple and extensible Node.js boilerplate for building RESTful APIs using Expr
 -   [Features](#features)
 -   [Installation](#installation)
 -   [Usage](#usage)
+-   [Validation & File Uploads](#validation--file-uploads)
 -   [Mail / Email](#mail--email)
 -   [API Endpoints](#api-endpoints)
 -   [Environment Variables](#environment-variables)
@@ -19,9 +20,10 @@ A simple and extensible Node.js boilerplate for building RESTful APIs using Expr
 -   JWT authentication
 -   Sequelize ORM for database interactions
 -   Middleware for request context management
--   Audit logging for database actions
--   Daily rotating log files
+-   Audit logging for database actions (sequelize-paper-trail)
 -   Email sending (SMTP) with mailer helper and templates
+-   Request validation with `express-validator`
+-   File upload handling with `express-fileupload`
 
 ## Installation
 
@@ -38,7 +40,13 @@ A simple and extensible Node.js boilerplate for building RESTful APIs using Expr
     npm install
     ```
 
-3. Create a `.env` file based on the `.env.example` template and configure your database, JWT and mail settings.
+3. Install validation and upload packages:
+
+    ```bash
+    npm install express-validator express-fileupload
+    ```
+
+4. Create a `.env` file based on the `.env.example` template and configure your database, JWT and mail settings.
 
 ## Usage
 
@@ -49,6 +57,67 @@ npm start
 ```
 
 The server will run on `http://localhost:5500` (or the port specified in your `.env` file).
+
+## Validation & File Uploads
+
+This project uses `express-validator` for request validation and `express-fileupload` for simple file uploads. Below are quick usage notes and examples.
+
+Installation
+```bash
+npm install express-validator express-fileupload
+```
+
+Mounting middleware (example in app bootstrap)
+```javascript
+const express = require('express');
+const fileUpload = require('express-fileupload');
+
+const app = express();
+
+// body parser
+app.use(express.json());
+
+// file upload
+app.use(fileUpload({
+  limits: { fileSize: 10 * 1024 * 1024 }, // 10 MB
+  abortOnLimit: true,
+  createParentPath: true
+}));
+```
+
+express-validator example (route)
+```javascript
+const { body, validationResult } = require('express-validator');
+
+app.post('/api/signup', [
+  body('email').isEmail().withMessage('Invalid email'),
+  body('password').isLength({ min: 6 }).withMessage('Password too short')
+], (req, res) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) return res.status(422).json({ errors: errors.array() });
+
+  // proceed with signup
+});
+```
+
+express-fileupload example (controller)
+```javascript
+app.post('/api/upload', async (req, res) => {
+  if (!req.files || !req.files.file) return res.status(400).json({ message: 'No file uploaded' });
+
+  const file = req.files.file;
+  const uploadPath = path.join(__dirname, '..', 'uploads', file.name);
+
+  await file.mv(uploadPath); // move to uploads folder
+  return res.json({ message: 'File uploaded', path: `/uploads/${file.name}` });
+});
+```
+
+Security & best practices
+- Validate file type/size on server side.
+- Store uploads outside webroot or use a dedicated storage (S3).
+- Scan uploaded files if necessary.
+- For heavy workloads use streaming upload handlers or a queue.
 
 ## Mail / Email
 
@@ -69,20 +138,10 @@ This project includes a simple mailer utility (Nodemailer-based) and mail templa
         mail.send(new WelcomeMail('user@example.com'));
     -   Recommended: send from a background/queue worker for production.
 
--   Example mail class (project pattern):
-
-    -   WelcomeMail accepts recipient and builds subject + HTML/text using a template.
-    -   Mailer exposes send(mailInstance) that resolves when delivered or queued.
-
 -   Testing emails:
 
     -   Use Mailtrap (or similar) for development: set MAIL_HOST, MAIL_PORT, MAIL_USER, MAIL_PASS to Mailtrap values.
     -   Log email output or inspect Mailtrap inbox.
-
--   Implementation tips:
-    -   Keep templates in `app/mails/templates` and load with a simple renderer (e.g. handlebars).
-    -   For heavy traffic use a queue (Bull / Bee-Queue) and an email worker.
-    -   Always avoid blocking requests while sending emails — return response and enqueue/send asynchronously.
 
 ## API Endpoints
 
@@ -97,9 +156,9 @@ This project includes a simple mailer utility (Nodemailer-based) and mail templa
 -   **GET** `/api/users` - List users
 -   **PATCH** `/api/users/:id` - Update user (paper-trail audit records changes when `userId` option passed)
 
-### Logging
+### File Uploads
 
-Logs are stored in the `logs` directory and are rotated daily.
+-   **POST** `/api/upload` - Upload a file (requires `express-fileupload` middleware)
 
 ## Environment Variables
 
@@ -112,7 +171,7 @@ NODE_ENV=development
 
 DB_HOST=127.0.0.1
 DB_USER=root
-DB_PASS<db_pass>
+DB_PASS=<db_pass>
 DB_NAME=node_boilerplate
 DB_DIALECT="mysql"
 
