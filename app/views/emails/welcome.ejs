@@ -3,9 +3,50 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+
+        <!-- Tailwind CDN -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>Welcome Email</title>
     </head>
-    <body>
-        Welcome to our platform, <%= name %>!
+
+    <body class="bg-gray-100 font-sans py-10">
+        <div class="max-w-xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+            <!-- Header -->
+            <div class="bg-indigo-600 px-6 py-4">
+                <h1 class="text-white text-2xl font-bold"><%= process.env.APP_NAME %></h1>
+            </div>
+
+            <!-- Body -->
+            <div class="px-6 py-6">
+                <h2 class="text-2xl font-semibold text-gray-800">Welcome, <%= name %> 👋</h2>
+
+                <p class="mt-4 text-gray-600 leading-relaxed">
+                    We're excited to have you onboard! Thank you for registering with <b><%= process.env.APP_NAME %></b>.
+                </p>
+
+                <p class="mt-4 text-gray-600">Start exploring powerful features tailored just for you.</p>
+
+                <!-- Button -->
+                <div class="mt-8">
+                    <a
+                        href="https://your-app-url.com/login"
+                        class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md text-lg font-medium hover:bg-indigo-700 transition"
+                    >
+                        Go to Dashboard
+                    </a>
+                </div>
+
+                <!-- Divider -->
+                <div class="border-t mt-8"></div>
+
+                <p class="mt-6 text-sm text-gray-500">If you didn’t create this account, you can safely ignore this email.</p>
+            </div>
+
+            <!-- Footer -->
+            <div class="bg-gray-100 px-6 py-4 text-center text-sm text-gray-500">
+                © <%= new Date().getFullYear() %> <%= process.env.APP_NAME %>. All rights reserved.
+            </div>
+        </div>
     </body>
 </html>

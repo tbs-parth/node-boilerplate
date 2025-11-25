@@ -4,6 +4,7 @@ const express = require('express');
 const boxen = require('boxen');
 const chalk = require('chalk');
 const figlet = require('figlet');
+const fileUpload = require('express-fileupload');
 
 const logger = require('./app/config/logger');
 const sequelize = require('./app/config/database');
@@ -14,6 +15,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(fileUpload());
 
 routes(app);
 
